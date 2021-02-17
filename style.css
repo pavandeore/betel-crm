@@ -1,0 +1,63 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: arial;
+}
+
+
+.logo{
+    height: 65px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+a{
+    text-decoration: none;
+}
+.desc{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.svg{
+    height: 230px;
+}
+.download-btn{
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 70px;
+    background: transparent;
+    color: white;
+    position: relative;
+    font-weight: 500;
+}
+
+.download-btn:hover{
+    cursor: pointer;
+}
+
+.android{
+    position: absolute;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.heading{
+    font-size: 2.7rem;
+    margin-top: 5px;
+    color: rgb(236, 222, 222);
+    text-align: center;
+    animation: animate__jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.btn-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
